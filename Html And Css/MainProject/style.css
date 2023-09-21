@@ -129,8 +129,6 @@ body::-webkit-scrollbar {
     font-size: 0.8125rem;
     color: #14bf98;
     margin-bottom: .5rem;
-    
-
 }
 
 .head_main
@@ -140,7 +138,6 @@ body::-webkit-scrollbar {
     width: 100%;
     color: #484a46;
     margin-bottom: .5rem;
-
 }
 
 .para_sec
@@ -163,11 +160,8 @@ body::-webkit-scrollbar {
 
 .head_sec
 {
-    
-    
     color: #484a46;
     margin: .5rem 0;
-
 }
 
 
@@ -208,7 +202,6 @@ body::-webkit-scrollbar {
 
 .card
 {
-    border: 1px solid green;
     max-width: 24rem;
     min-width: 24rem;
     margin: .5rem 0;
@@ -307,6 +300,7 @@ body::-webkit-scrollbar {
     background-position: center;
     height: 40%;
     margin-bottom: 0.5rem;
+    /* background-attachment: fixed; */
 
 }
 
@@ -337,7 +331,6 @@ body::-webkit-scrollbar {
 
 .carousel
 {
-    border: 1px solid red;
     height: 25rem;
     padding: 1rem 8rem;
     display: flex;
@@ -352,9 +345,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    overflow-y: scroll;
-
-
+    overflow-x: scroll;
 }
 .carousel_container::-webkit-scrollbar
 {
