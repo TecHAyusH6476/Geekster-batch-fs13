@@ -1,0 +1,16 @@
+
+.parent
+{
+    --color-green:green;
+
+}
+
+.direct_child
+{
+    color: var(--color-green);
+}
+
+.grandchild
+{
+    color: var(--color-green);
+} 

@@ -1,0 +1,81 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card_container
+{
+    background-color: white;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    
+
+}
+.left
+{
+    width: 100%;
+    height: 10rem;
+    background-image: url("../../MainProject/images/intro-office.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+.right
+{
+
+    font-size: .5rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem ;
+    background-color: white;
+    text-align: center;
+}
+
+
+/* @media(max-width:600px)
+{
+    .card_container
+    {
+        flex-direction: column;
+    }
+} */
+
+/* @media (min-width:400px) and (max-width:600px)
+{
+    .card_container
+    {
+        flex-direction: column;
+    }
+} */
+
+/* @media(400px<=width<=600px)
+{
+    .card_container
+    {
+        flex-direction: column;
+    }
+} */
+
+
+
+
+

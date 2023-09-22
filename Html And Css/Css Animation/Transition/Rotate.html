@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate 360 With Transition</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div {
+        height: 5rem;
+        width: 5rem;
+        background-color: aqua;
+        /*
+        transition: height/width/color/..../all duration effect(ease,ease-in,ease-in,ease-in-out);
+        */
+    }
+
+    /*
+ transition: all 1s ease-in-out;
+ div:hover {
+        transform: rotate(360deg);
+    }
+*/
+
+    /*
+transition: width 2s;
+ div:hover {
+        width: 300px;
+*/
+
+    /*
+ transition: width 2s, height 1s;
+ div:hover {
+        width: 300px;
+        height: 300px;
+    }
+*/
+</style>
+
+<body>
+
+    <div>
+        i am a div
+    </div>
+
+</body>
+
+</html>

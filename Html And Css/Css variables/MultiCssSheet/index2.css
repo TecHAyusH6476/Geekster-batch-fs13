@@ -1,0 +1,9 @@
+:root
+{
+    --primary:green;
+}
+
+h1
+{
+    color: var(--primary);
+}
