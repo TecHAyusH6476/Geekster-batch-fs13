@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Extend</title>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "denger": "red",
+                        "silent": {
+                            100: "blue",
+                            200: "green",
+                            300: "red"
+                        }
+                    },
+                    spacing: {
+                        1: "12rem"
+                    },
+                    fontSize: {
+                        "1": "12rem"
+                    },
+                    backgroundImage: {
+                        happyGirl: "url('../../../../MainProject/images/intro-office.jpg')"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1 class="text-denger">i am denger</h1>
+    <h1 class="text-1">i am 1</h1>
+    <h1 class="text-silent-100">i am silent-100</h1>
+    <h1 class="text-silent-200">i am silent-200</h1>
+    <h1 class="text-silent-300">i am silent-300</h1>
+    <div class="h-[12rem] w-[12rem] bg-happyGirl border-2"></div>
+    <h1 class="text-slate-500">i am woking now</h1>
+</body>
+
+</html>
+
+<!-- https://tailwindcss.com/docs/theme -->

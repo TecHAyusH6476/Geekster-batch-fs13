@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Config File</title>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                colors: {
+                    "danger": "red",
+                    "silent": {
+                        "100": "aqua",
+                        "200": "#6b6b6b",
+                        "300": "rgb(34,35,43)"
+                    }
+                },
+                fontSize: {
+                    "1": "100px",
+                    "2": "200px"
+                },
+                backgroundImage: {
+                    happyGirl: "url('../../../MainProject/images/intro-office.jpg')"
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- <h1 class="text-danger">i am denger</h1>
+    <h1 class="text-silent-100">i am silent-100</h1>
+    <h1 class="text-silent-200">i am silent-200</h1>
+    <h1 class="text-silent-300">i am silent-300</h1> -->
+    <!-- <h1 class="text-2">i am 1</h1> -->
+
+    <!-- <div class="h-[12rem] w-[12rem] bg-happyGirl border-2 "></div> -->
+    <h1 class="text-white">i am not working</h1>
+</body>
+
+</html>
+
+<!-- https://tailwindcss.com/docs/theme -->
+
+<!-- theme: {
+    colors: {
+        "denger": "red",
+        "silent": {
+            100: "blue",
+            200: "green",
+            300: "red"
+        }
+    },
+    spacing: {
+        1: "12rem"
+    },
+    fontSize: {
+        "1": "12rem"
+    },
+    backgroundImage: {
+        happyGirl: "url('../../../MainProject/images/intro-office.jpg')"
+    }
+} -->
